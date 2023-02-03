@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+}
+
+h1, h3, h6 {
+    text-align: center;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url("../images/pikachu.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: -8px;
+}
+
+/* .bg-img {
+    background-image: url("../images/pikachu.jpg");
+    min-height: 380px;
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: -8px;
+} */
+
+/* .container {
+    position: absolute;
+    left: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+} */
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 25%;
+    padding: 16px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email], input[type=tel], input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.questions {
+    font-size: medium;
+}
+
+
+.btn {
+    background-color: orange;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: large;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.footer {
+    background-color: grey;
+} 
+
+.flex-wrapper {
+    background-color: orange;
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    margin: -8px -8px;
+}

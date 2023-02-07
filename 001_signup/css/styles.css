@@ -19,6 +19,7 @@ h1, h3, h6 {
     background-size: cover;
     position: relative;
     margin: -8px;
+    height: 120%;
 }
 
 /* .bg-img {
@@ -48,6 +49,7 @@ h1, h3, h6 {
     width: 25%;
     padding: 16px;
     background-color: white;
+
 }
 
 /* Full-width input fields */
@@ -91,10 +93,13 @@ input[type=text], input[type=email], input[type=tel], input[type=date] {
     background-color: grey;
 } 
 
-.flex-wrapper {
-    background-color: orange;
-    display: flex;
-    min-height: 80vh;
-    flex-direction: column;
-    margin: -8px -8px;
+h6 {
+    padding: -4px;
+}
+
+footer {
+    /* background-color: rgb(250, 166, 10); */
+    background-color: rgb(300, 168, 60);
+    margin: -8px;
+    margin-top: -26px;
 }

@@ -22,25 +22,6 @@ h1, h3, h6 {
     height: 120%;
 }
 
-/* .bg-img {
-    background-image: url("../images/pikachu.jpg");
-    min-height: 380px;
-    background-position: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: -8px;
-} */
-
-/* .container {
-    position: absolute;
-    left: 0;
-    margin: 20px;
-    max-width: 300px;
-    padding: 16px;
-    background-color: white;
-} */
-
 .container {
     display: block;
     margin-left: auto;
@@ -49,7 +30,6 @@ h1, h3, h6 {
     width: 25%;
     padding: 16px;
     background-color: white;
-
 }
 
 /* Full-width input fields */
@@ -82,13 +62,6 @@ input[type=text], input[type=email], input[type=tel], input[type=date] {
     opacity: 1;
 }
 
-/* .flex-wrapper {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
-} */
-
 .footer {
     background-color: grey;
 } 
@@ -97,9 +70,15 @@ h6 {
     padding: -4px;
 }
 
-footer {
-    /* background-color: rgb(250, 166, 10); */
+/* footer {
     background-color: rgb(300, 168, 60);
     margin: -8px;
     margin-top: -26px;
+} */
+
+footer {
+    margin: -8px;
+    margin-top: -26px;
+    position: relative;
+    bottom: 40px;
 }
